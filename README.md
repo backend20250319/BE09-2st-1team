@@ -11,7 +11,7 @@
 | 지정호(팀장) | 메인페이지 | https://github.com/hoya-q |
 | 유지은 | 매장안내 | https://github.com/yde222 |
 | 이채희 | 제품소개 | https://github.com/apocalcal |
-| 정승원 | 메인페이지 | https://github.com/dkrio |
+| 정승원 | 삼송빵집 소개 | https://github.com/dkrio |
 | 김지환 | 회사소개 | https://github.com/FerryLa |
 - 카테고리별 역할 분담
 

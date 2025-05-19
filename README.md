@@ -8,7 +8,7 @@
 
 | 이름 | 카테고리별 역할 (업무) | GitHub 프로필 |
 | --- | --- | --- |
-| 지정호(팀장) | 메인페이지 | https://github.com/hoya-q |
+| 지정호(팀장) | 메인페이지/ 헤더 / 푸터 | https://github.com/hoya-q |
 | 유지은 | 매장안내 | https://github.com/yde222 |
 | 이채희 | 제품소개 | https://github.com/apocalcal |
 | 정승원 | 메인페이지 | https://github.com/dkrio |

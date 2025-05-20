@@ -20,7 +20,7 @@
 
 👉 **삼송빵집 사이트** : https://www.ssbnc.kr/doc/menu0.php
 
-👉 **Vercel을 이용한 프로젝트 배포 링크** : https://samsong-gamma.vercel.app
+👉 **Vercel을 이용한 프로젝트 배포 링크** : https://samsong-seven.vercel.app/
 
 ### 소개
 

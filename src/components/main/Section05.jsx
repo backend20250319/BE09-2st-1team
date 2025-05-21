@@ -113,11 +113,11 @@ export default function Section05() {
         <div
           data-aos="flip-up"
           data-aos-delay="400"
-          className="w-[90%] bg-[#afa09a] max-w-[784px] leading-[80px] ml-[20%] mt-[-40px] rounded-[50px] flex"
+          className="w-[90%] h-[80px]  bg-[#afa09a] max-w-[784px] leading-[80px] ml-[20%] mt-[-40px] rounded-[50px] flex"
         >
           <input
             type="text"
-            className="h-[80px] w-[calc(100%-80px)] border-none outline-none leading-[80px] text-white text-[20px] px-[30px]"
+            className="w-[calc(100%-160px)] absolute top-0 left-[5%] placeholder-[#ddd] placeholder:text-xl bg-[#afa09a] border-none outline-none leading-[80px] text-white text-[20px] px-[30px]"
             placeholder="내 주변 가까운 삼송빵집을 찾아보세요!"
             value={searchKeyword}
             onChange={(e) => setSearchKeyword(e.target.value)}

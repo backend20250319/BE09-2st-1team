@@ -10,7 +10,7 @@ export default function Submenu() {
   const [isSectionOpen, setIsSectionOpen] = useState(false);
   const [isItemOpen, setIsItemOpen] = useState(false);
 
-  const greetingPath = pathname === "/greeting";
+  const isGreetingOrOverview = pathname === "/greeting" || pathname === "/overview";
 
   // 현재 페이지에 해당하는 섹션과 현재 아이템 탐색 (startsWith로 매칭)
   let currentSection = null;
@@ -48,7 +48,9 @@ export default function Submenu() {
 
   return (
     <div
-      className={`w-full max-w-[1600px] absolute ${greetingPath ? "bottom-[7%]" : "bottom-[15%]"}  left-[-16px] px-4`}
+      className={`w-full max-w-[1600px] absolute ${
+        isGreetingOrOverview ? "bottom-[7%]" : "bottom-[15%]"
+      }  left-[-16px] px-4`}
     >
       <div className="relative h-[80px] leading-[90px] mt-[-45px] font-normal z-10 flex items-center">
         {/* Home 아이콘 */}

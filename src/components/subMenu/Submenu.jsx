@@ -10,7 +10,12 @@ export default function Submenu() {
   const [isSectionOpen, setIsSectionOpen] = useState(false);
   const [isItemOpen, setIsItemOpen] = useState(false);
 
+  // 인사말, 기업개요
   const isGreetingOrOverview = pathname === "/greeting" || pathname === "/overview";
+
+  // 예외적으로 서브메뉴를 절대 보여주지 않아야 할 경로
+  const blockedPaths = ["/samgsong-1957"];
+  if (blockedPaths.includes(pathname)) return null;
 
   // 현재 페이지에 해당하는 섹션과 현재 아이템 탐색 (startsWith로 매칭)
   let currentSection = null;

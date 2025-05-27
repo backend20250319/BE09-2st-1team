@@ -11,7 +11,7 @@ export default function Submenu() {
   const [isItemOpen, setIsItemOpen] = useState(false);
 
   // 인사말, 기업개요
-  const isGreetingOrOverview = pathname === "/greeting" || pathname === "/overview";
+  const isGreetingOrOverview = pathname === "/greeting" || pathname === "/overview" || pathname === "/headquarter";
 
   // 예외적으로 서브메뉴를 절대 보여주지 않아야 할 경로
   const blockedPaths = ["/samgsong-1957"];

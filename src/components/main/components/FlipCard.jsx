@@ -1,8 +1,15 @@
+import { usePathname } from "next/navigation";
 import "../style/flipCard.css";
 
 export default function FlipCard({ breadFrontImg, titleKo, titleEn, backContent, breadBackImg }) {
+  const pathname = usePathname();
+
+  // 제품소개 페이지에서는 width 300px
+  const isProduct =
+    pathname === "/bakery" || pathname === "/croquette" || pathname === "/corn-bread" || pathname === "/drinks";
+
   return (
-    <div className="w-[360px] h-[412px] mb-[20px] perspective">
+    <div className={`${isProduct ? "w-[300px]" : "w-[360px]"} h-[412px] mb-[20px] perspective`}>
       <div className="flip-card-inner">
         {/* 앞면 */}
         <div className="front overflow-hidden shadow-md bg-[#fffdf1] rounded-xl">
